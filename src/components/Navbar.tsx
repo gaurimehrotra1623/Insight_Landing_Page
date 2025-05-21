@@ -30,7 +30,7 @@ const Navbar = () => {
             <span className="text-2xl font-bold text-violet-600">Insight</span>
           </div>
 
-          {/* Desktop Menu */}
+
           <nav className="hidden md:flex space-x-8">
             <a href="#features" className="text-gray-600 hover:text-violet-600 font-medium transition-colors">
               Features
@@ -58,7 +58,7 @@ const Navbar = () => {
             </a>
           </div>
 
-          {/* Mobile menu button */}
+
           <button
             type="button"
             className="md:hidden text-gray-700"
@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+
       {isMenuOpen && (
         <div className="md:hidden bg-white shadow-lg absolute top-full left-0 right-0">
           <div className="px-4 pt-2 pb-4 space-y-1">
