@@ -6,7 +6,6 @@ const Newsletter = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // This would typically be where you'd integrate with a service like Mailchimp
     setIsSubmitted(true);
   };
 
