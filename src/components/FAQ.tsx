@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
-// Define the type for each FAQ item
 type FAQItem = {
   question: string;
   answer: string;
 };
 
-// Type the array
+
 const faqs: FAQItem[] = [
   {
     question: 'How does the 14-day trial work?',
